@@ -22,7 +22,13 @@
   border-radius: 30px;
   cursor: pointer;
 }
-
+.btn.clicked-q2 {
+  background-color: rgba(255, 0, 0, 0.5); /* 赤色で透明度0.5 */
+}
+.btn.clicked-q4 {
+  font-size: 24px; /* クリック時の文字サイズを大きくする */
+  padding: 30px 40px; /* クリック時のパディングを大きくする */
+}
 .large {
   width: 300px;
   padding: 50px;
@@ -31,7 +37,7 @@
 
 .list {
   width: 300px;
-  margin: 0 auto;;
+  margin: 0 auto;
 }
 
 .list li {
